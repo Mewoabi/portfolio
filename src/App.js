@@ -1,29 +1,29 @@
- import React from "react";
- import navbar from "./components/navbar/navbar";
- import about from "./components/about/about";
- import services from "./components/services/services";
- import navbar from "./components/navbar/navbar";
- import Footer from "./components/footer/Footer";
- import experience from "./components/experience/experience";
- import portfolio from "./components/portfolio/portfolio";
- import contact from "./components/contact/contact";
- import testimonial from "./components/testimonial/testimonial";
- import Header from "./components/header/Header";
+import './App.css';
+import Header from './components/header/Header'
+// import Navbar from './components/navbar/Navbar'
+// import About from './components/about/About'
+// import Experience from './components/experience/Experience'
+// import Services from './components/services/Services'
+// import Portfolio from './components/portfolio/Portfolio'
+// import Testimonial from './components/testimonial/Testimonial'
+// import Contact from './components/contact/Contact'
+// import Footer from './components/footer/Footer'
 
- export const App  = () => {
-  return ( 
-    <>
-      <Header/>
-      <navbar/>
-      <about/>
-      <experience/>
-      <services/>
-      <portfolio/>
-      <testimonial/>
-      <contact/>
-      <footer/>
-    </>
-   );
+import React from 'react'
+
+function App() {
+ return (
+ <>
+ <Header/>
+ {/* <Navbar/>
+ <About/>
+ <Experience/>
+ <Services/>
+ <Portfolio/>
+ <Testimonial/>
+ <Contact/>
+ <Footer/> */}
+ </>
+ );
  }
-  
-export default App; //Always export the  component as default
+ export default App;
